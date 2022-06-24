@@ -74,5 +74,5 @@ jobs:
           cd manifest-repo-0624
           git config --global user.email "inilc.na@gmail.com"
           git config --global user.name "inil-na"
-          git commit -am "Update image tag"
+          git commit -am "Update image tag 0624"
           git push -u origin main
