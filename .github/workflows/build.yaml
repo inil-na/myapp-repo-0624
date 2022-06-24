@@ -1,3 +1,4 @@
+
 name: Build Front
 
 on:
@@ -72,6 +73,6 @@ jobs:
         run: |
           cd manifest-repo-0624
           git config --global user.email "inilc.na@gmail.com"
-          git config --global user.name "inilc.na"
+          git config --global user.name "inil-na"
           git commit -am "Update image tag"
           git push -u origin main
